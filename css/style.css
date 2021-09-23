@@ -27,19 +27,19 @@
 /* media queries */
 
 @media only screen and (max-width: 1024px) {
-    body {
+    header {
       background-color: rgb(101, 48, 136);
     }
   }
 
   @media only screen and (max-width: 768px) {
-    body {
+    header {
       background-color: rgb(194, 17, 114);
     }
   }
 
   @media only screen and (max-width: 480px) {
-    body {
+    header {
       background-color: rgb(43, 161, 49);
     }
   }
