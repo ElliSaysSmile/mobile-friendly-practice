@@ -16,18 +16,30 @@
     font-size: 18px;
 }
 
-.heading2{
-    font-family: georgia;
-    color: rgba(9, 109, 121, 1);
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 18px;
-    margin-left: 85%;
-    
-}
+
 .content{
     font-family: georgia;
     font-size: 12px;
     margin-left: 15%;
     margin-right: 15%;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: rgb(101, 48, 136);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(194, 17, 114);
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    body {
+      background-color: rgb(43, 161, 49);
+    }
+  }
